@@ -1,41 +1,39 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-ul {
+nav.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background: darkred;
+    background: darkgreen;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
+    display: flex;
+    z-index: 1000;
 }
 
-li {
-    float: left;
-}
-
-li a {
+nav.navbar li a {
     display: block;
-    color: lightgreen;
-    text-align: center;
+    color: lightgoldenrodyellow;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover{
-    background: rgb(7, 5, 88);
-    color: white;
+nav.navbar li a:hover {
+    background: red;
+    color: navy;
 }
 
-li a.active{
-    background: wheat;
-    color: brown;
+nav.navbar li a.active {
+    background: greenyellow;
+    color: black;
 }
 
-h1{
-    margin-top: 50px;
+.wadah-utama {
+    margin-top: 60px;
 }
