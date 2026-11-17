@@ -8,7 +8,7 @@ nav.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background: darkgreen;
+    background: purple;
     position: fixed;
     top: 0;
     left: 0;
@@ -19,49 +19,75 @@ nav.navbar ul {
 
 nav.navbar li a {
     display: block;
-    color: lightgoldenrodyellow;
+    color: white;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav.navbar li a:hover {
-    background: red;
+    background: lightgreen;
     color: navy;
 }
 
 nav.navbar li a.active {
-    background: greenyellow;
-    color: black;
+    background: lightgreen;
+    color: navy;
 }
 
 .wadah-utama {
     margin-top: 60px;
 }
-li.dropdown {
-    display: inline-block;
-}
 
-.dropdown-content {
-    display: none;
-    position: absolute;
+
+
+.header-halaman {
     background-color: lightblue;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(88, 86, 86, 0.2);
-    z-index: 1;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
 }
 
-.dropdown-content a {
-    color: navy !important;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+.header-halaman h1 {
+    color: purple;
+    margin: 0 0 10px 0;
 }
 
-.dropdown-content a:hover {
-    background-color: lightskyblue;
+.baris {
+    display: flex;
+    gap: 20px;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+.kolom {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.kiri {
+    flex: 25%;
+}
+
+.tengah {
+    flex: 50%;
+}
+
+.kanan {
+    flex: 25%;
+}
+
+.kolom img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
 }
